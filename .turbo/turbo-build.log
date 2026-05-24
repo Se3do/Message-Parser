@@ -1,0 +1,18 @@
+
+assets by path [1m[32m*.map[39m[22m 8.57 KiB
+  asset [1m[32mdefinitions.d.ts.map[39m[22m 5.17 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mutils.d.ts.map[39m[22m 2.57 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mindex.d.ts.map[39m[22m 593 bytes [1m[32m[emitted][39m[22m
+  asset [1m[32mguards.d.ts.map[39m[22m 262 bytes [1m[32m[emitted][39m[22m
+assets by path [1m[32m*.ts[39m[22m 9.24 KiB
+  asset [1m[32mutils.d.ts[39m[22m 4.31 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mdefinitions.d.ts[39m[22m 4.26 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mindex.d.ts[39m[22m 506 bytes [1m[32m[emitted][39m[22m
+  asset [1m[32mguards.d.ts[39m[22m 185 bytes [1m[32m[emitted][39m[22m
+asset [1m[32mmessageParser.js[39m[22m 216 KiB [1m[32m[emitted][39m[22m [javascript module] [1m[32m[minimized][39m[22m (name: main)
+orphan modules 553 KiB [1m[33m[orphan][39m[22m 16 modules
+runtime modules 670 bytes 3 modules
+cacheable modules 560 KiB
+  [1m./src/index.ts + 2 modules[39m[22m 386 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./src/utils.ts + 13 modules[39m[22m 174 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.99.9 compiled [1m[32msuccessfully[39m[22m in 24028 ms
