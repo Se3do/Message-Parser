@@ -1,0 +1,24 @@
+[
+  {
+    "type": "PARAGRAPH",
+    "value": [
+      {
+        "type": "PLAIN_TEXT",
+        "value": "**"
+      },
+      {
+        "type": "ITALIC",
+        "value": [
+          {
+            "type": "PLAIN_TEXT",
+            "value": "**"
+          }
+        ]
+      },
+      {
+        "type": "PLAIN_TEXT",
+        "value": "_"
+      }
+    ]
+  }
+]

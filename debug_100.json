@@ -1,0 +1,11 @@
+[
+  {
+    "type": "PARAGRAPH",
+    "value": [
+      {
+        "type": "PLAIN_TEXT",
+        "value": "This a message designed to stress test the message parser, trying to force several rules to stack at"
+      }
+    ]
+  }
+]

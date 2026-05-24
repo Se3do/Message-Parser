@@ -1,0 +1,83 @@
+[
+  {
+    "type": "PARAGRAPH",
+    "value": [
+      {
+        "type": "BOLD",
+        "value": [
+          {
+            "type": "ITALIC",
+            "value": [
+              {
+                "type": "BOLD",
+                "value": [
+                  {
+                    "type": "ITALIC",
+                    "value": [
+                      {
+                        "type": "BOLD",
+                        "value": [
+                          {
+                            "type": "PLAIN_TEXT",
+                            "value": "_"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "ITALIC",
+        "value": [
+          {
+            "type": "BOLD",
+            "value": [
+              {
+                "type": "PLAIN_TEXT",
+                "value": "_"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BOLD",
+        "value": [
+          {
+            "type": "ITALIC",
+            "value": [
+              {
+                "type": "BOLD",
+                "value": [
+                  {
+                    "type": "ITALIC",
+                    "value": [
+                      {
+                        "type": "BOLD",
+                        "value": [
+                          {
+                            "type": "PLAIN_TEXT",
+                            "value": "_"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PLAIN_TEXT",
+        "value": "__"
+      }
+    ]
+  }
+]

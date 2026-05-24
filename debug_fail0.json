@@ -1,0 +1,30 @@
+[
+  {
+    "type": "PARAGRAPH",
+    "value": [
+      {
+        "type": "PLAIN_TEXT",
+        "value": "plain "
+      },
+      {
+        "type": "BOLD",
+        "value": [
+          {
+            "type": "ITALIC",
+            "value": [
+              {
+                "type": "STRIKE",
+                "value": [
+                  {
+                    "type": "PLAIN_TEXT",
+                    "value": "strikeitalicbold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
