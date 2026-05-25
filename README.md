@@ -133,15 +133,26 @@ Two parser implementations:
 - **PEG grammar** (`engine: 'peggy'`) — the reference implementation, a formal grammar in `grammar.pegjs`. Comprehensive but slower.
 - **Handwritten** (`engine: 'handwritten'`, default) — hand-coded recursive descent parser. Faster, designed for real-time rendering.
 
-Both produce identical ASTs (verified by 862 tests across both engines). Use `'peggy'` when you need strict spec compliance; use `'handwritten'` for performance-sensitive rendering.
+Both produce identical ASTs (verified by 814 tests across both engines). Use `'peggy'` when you need strict spec compliance; use `'handwritten'` for performance-sensitive rendering.
+
+## Improvements over PEG
+
+The handwritten parser includes fixes and improvements not present in the original PEG grammar:
+
+- **CommonMark intraword underscore rule** — `_` does not open emphasis when preceded by a word character. `text_hello_` and `some_snake_case_text` remain plain text rather than being parsed as italic.
+- **Deterministic strike/italic ordering** — when `~` and `_` compete at the same nesting level, strike wins predictably. PEG's backtracking can produce inconsistent results depending on input length and token positions.
+- **Performance** — **~45x faster on average** (5.6x–265x range depending on message type). The handwritten parser avoids PEG's backtracking overhead, especially on emoji, mentions, and code blocks.
+
+Run `yarn bench:compare` to see the full per-category breakdown.
 
 ## Benchmarks
 
 ```sh
-yarn bench       # full suite
+yarn bench        # full suite
 yarn bench:parser # parser throughput
-yarn bench:lexer # lexer throughput
-yarn bench:size  # bundle size
+yarn bench:lexer  # lexer throughput
+yarn bench:compare # handwritten vs PEG comparison
+yarn bench:size   # bundle size
 ```
 
 ## Contributing
