@@ -1,24 +1,14 @@
-<!--header-->
+# Message Parser
 
-<p align="center">
-  <a href="https://rocket.chat" title="Rocket.Chat">
-    <img src="https://github.com/RocketChat/Rocket.Chat.Artwork/raw/master/Logos/2020/png/logo-horizontal-red.png" alt="Rocket.Chat" />
-  </a>
-</p>
-
-# `@rocket.chat/message-parser`
-
-> Rocket.Chat message parser — converts chat messages into structured AST.
+> Personal fork of `@rocket.chat/message-parser` — converts chat messages into structured AST.
 > Dual-engine design: a PEG grammar reference and a fast handwritten parser.
-> Written in TypeScript, tree-shakable, 862 passing tests.
+> Written in TypeScript, tree-shakable, 814 passing tests.
 
 ---
 
-[![npm@latest](https://img.shields.io/npm/v/@rocket.chat/message-parser/latest?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/message-parser/v/latest) [![npm@next](https://img.shields.io/npm/v/@rocket.chat/message-parser/next?style=flat-square)](https://www.npmjs.com/package/@rocket.chat/message-parser/v/next) ![npm downloads](https://img.shields.io/npm/dw/@rocket.chat/message-parser?style=flat-square) ![License: MIT](https://img.shields.io/npm/l/@rocket.chat/message-parser?style=flat-square)
+**Disclaimer:** This is a personal fork of the [Rocket.Chat message-parser](https://github.com/RocketChat/fuselage/tree/main/packages/message-parser). Not affiliated with Rocket.Chat.
 
-![deps](https://img.shields.io/librariesio/release/npm/@rocket.chat/message-parser?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rocket.chat/message-parser?style=flat-square)
-
-<!--/header-->
+---
 
 ## Installation
 
@@ -155,13 +145,6 @@ yarn bench:size  # bundle size
 ```
 
 ## Contributing
-
-<!--contributing(msg)-->
-
-Contributions, issues, and feature requests are welcome!<br />
-Feel free to check the [issues](https://github.com/RocketChat/fuselage/issues).
-
-<!--/contributing(msg)-->
 
 - **Grammar bugs**: edit `grammar.pegjs`, then regenerate with `yarn build:grammar`
 - **Parser bugs**: edit `src/parser/Parser.ts`

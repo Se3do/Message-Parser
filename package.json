@@ -1,21 +1,16 @@
 {
 	"name": "@rocket.chat/message-parser",
 	"version": "0.31.34",
-	"description": "Rocket.Chat parser for messages",
-	"homepage": "https://github.com/RocketChat/fuselage#readme",
+	"description": "Fork of Rocket.Chat message parser",
+	"homepage": "https://github.com/Se3do/Message-Parser",
 	"bugs": {
-		"url": "https://github.com/RocketChat/fuselage/issues"
+		"url": "https://github.com/Se3do/Message-Parser/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/RocketChat/fuselage.git",
-		"directory": "packages/message-parser"
+		"url": "git+https://github.com/Se3do/Message-Parser.git"
 	},
 	"license": "MIT",
-	"author": {
-		"name": "Rocket.Chat",
-		"url": "https://rocket.chat/"
-	},
 	"exports": {
 		".": {
 			"default": "./dist/messageParser.js",
