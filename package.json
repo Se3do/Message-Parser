@@ -1,5 +1,5 @@
 {
-	"name": "@rocket.chat/message-parser",
+	"name": "@se3do/message-parser",
 	"version": "0.31.34",
 	"description": "Fork of Rocket.Chat message parser",
 	"homepage": "https://github.com/Se3do/Message-Parser",

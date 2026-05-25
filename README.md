@@ -1,4 +1,4 @@
-# Message Parser
+# `@se3do/message-parser`
 
 > Personal fork of `@rocket.chat/message-parser` — converts chat messages into structured AST.
 > Dual-engine design: a PEG grammar reference and a fast handwritten parser.

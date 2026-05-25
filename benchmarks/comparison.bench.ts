@@ -1,6 +1,6 @@
 #!/usr/bin/env npx ts-node
 /**
- * Handwritten vs PEG parser comparison benchmark.
+ * Handwritten vs PEG parser comparison benchmark for @se3do/message-parser.
  *
  * Runs every fixture with both engines and reports side-by-side ops/sec.
  * Run: yarn bench:compare
